@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    position: relative;
+  
+}
+.NavBar{
+    height: 10vh;
+    background-color: #44f1dd;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+   
+    
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+}
+.NavBar a{
+    position: sticky;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-container{
+    background-color: #9EEFE5;
+    position: relative;
+    padding: 100px; 
+}
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size:4.625em;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: black;
+}
+.top-cloud{
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 860px;
+    top: 200px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+}
+.web{
+    width: 40%;
+  
+}
+.skill-image{
+    width: 40%;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+
+}
+.boy-photo{
+    width: 40%;
+
+}
+.part2{
+    margin-left: 20px;
+}
+.contact-me{
+    height: 45vh;
+}
+.contact-me h2 {
+    margin-top: 20px;
+}
+.contact-me h3 {
+    margin-top: 20px;
+}
+.contact-me p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact-me a{
+    padding: 0 15px 0 15px;
+    margin-top: 20px;
+    background-color: #EAD7D7;
+    border: solid 1px black;
+    border-radius: 20px;
+    text-decoration: none;
+  
+}
+
+
+.bottom-container{
+    background-color: #11999E;
+    height: 15vh;
+    padding: 20px;
+}
+.bottom-container a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bottom-container p{
+    margin-top: 5px;
+    font-size: medium;
+}
