@@ -96,6 +96,16 @@ a{
 .part2{
     margin-left: 20px;
 }
+p{
+    
+     color: #40514E;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
 .contact-me{
     height: 45vh;
 }
